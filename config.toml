@@ -1,6 +1,13 @@
 # The URL the site will be built for
 base_url = "https://lassat-yu.github.io/wiki/"
 
+# The site title and description; used in feeds by default.
+title = "LASSAT Wiki"
+description = "Lassonde Satellite Club (LASSAT) Wiki"
+
+# The site theme to use.
+theme = "zola_easydocs_theme"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
