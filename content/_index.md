@@ -1,6 +1,7 @@
 +++
 title = "index"
-sort_by = "title"
+weight = 0
+sort_by = "weight"
 insert_anchor_links = "right"
 +++
 ## York University - Lassonde Satellite Club (LASSAT) Wiki
