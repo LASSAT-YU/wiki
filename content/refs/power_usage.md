@@ -1,6 +1,5 @@
 +++
 title = "Power Usage"
-date = 2022-05-24
 +++
 
 In this episode they spoke about low power modes. Sound like we should look into this once we get the basics covered.
