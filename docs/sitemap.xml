@@ -4,10 +4,42 @@
         <loc>https://lassat-yu.github.io/wiki/</loc>
     </url>
     <url>
-        <loc>https://lassat-yu.github.io/wiki/refs/</loc>
+        <loc>https://lassat-yu.github.io/wiki/acs/</loc>
     </url>
     <url>
-        <loc>https://lassat-yu.github.io/wiki/refs/power-usage/</loc>
-        <lastmod>2022-05-24</lastmod>
+        <loc>https://lassat-yu.github.io/wiki/acs/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/communications/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/communications/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/electrical/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/electrical/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/mechanical/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/mechanical/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/payload/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/payload/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/software/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/software/about/</loc>
+    </url>
+    <url>
+        <loc>https://lassat-yu.github.io/wiki/software/related-contnet/</loc>
     </url>
 </urlset>
