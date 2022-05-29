@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lassat-yu.github.io/wiki/sitemap.xml

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  This is a test page created to test Zola.
+</h1>
+<p> <a href="refs/">References Index</a> </p>
+<p> <a href="{{ get_url(path="@/refs/_index.md") }}">Test link to refs</a></p>
+{% endblock content %}
