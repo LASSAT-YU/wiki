@@ -48,13 +48,14 @@ discord.
 
 ## What is the Canadian Satellite Design Competition (CSDC)?
 
-The Canadian Satellite Design Challenge (CSDC) is a Canada-wide competition for teams of university students (
-undergraduate and graduate) to design and build a small satellite. The satellites will undergo full launch and space
-environmental qualification testing, with the goal of launching the winning satellite into orbit in order to conduct
-scientific research. The CSDC is an innovative and academically-challenging initiative which will advance space
-education in Canada, inspire students to pursue science and engineering educations and careers, and prepare tomorrow’s
-leaders with the interdisciplinary teamwork skills which are necessary for success. (See more at their site
-here: <https://www.csdcms.ca/>)
+The Canadian Satellite Design Challenge ([CSDC](https://www.csdcms.ca/index.php/cubesat-design-challenge)) is a
+Canada-wide competition for teams of
+university students (undergraduate and graduate) to design and build a small satellite. The satellites will undergo full
+launch and space environmental qualification testing, with the goal of launching the winning satellite into orbit in
+order to conduct scientific research. The CSDC is an innovative and academically-challenging initiative which will
+advance space education in Canada, inspire students to pursue science and engineering educations and careers, and
+prepare tomorrow’s leaders with the interdisciplinary teamwork skills which are necessary for success. (See more at
+their site here: <https://www.csdcms.ca/>)
 
 Previously, LASSAT put all of its effort towards the CSDC. In the past year, we've decided that we want to be a student
 hub for CubeSat design at Lassonde, helping new and current students succeed in the space industry. We are always
