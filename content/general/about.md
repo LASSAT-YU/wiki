@@ -13,7 +13,7 @@ of **all skill** levels and backgrounds. No prior skills required.
 ## Contact information
 
 The best way to reach us is via our discord. Please use this link to join our
-discord https://discord.gg/JBCdZRm
+discord <https://discord.gg/JBCdZRm>
 
 ## When & How does the club meet?
 
@@ -54,7 +54,7 @@ environmental qualification testing, with the goal of launching the winning sate
 scientific research. The CSDC is an innovative and academically-challenging initiative which will advance space
 education in Canada, inspire students to pursue science and engineering educations and careers, and prepare tomorrow’s
 leaders with the interdisciplinary teamwork skills which are necessary for success. (See more at their site
-here: https://www.csdcms.ca/)
+here: <https://www.csdcms.ca/>)
 
 Previously, LASSAT put all of its effort towards the CSDC. In the past year, we've decided that we want to be a student
 hub for CubeSat design at Lassonde, helping new and current students succeed in the space industry. We are always
