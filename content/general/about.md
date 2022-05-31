@@ -80,7 +80,9 @@ Here is a list including some software we use and teach students about:
 
 - **Systems Tool Kit ([STK](https://www.agi.com/products/stk))** used at countless companies to perform orbital,
   communications, solar, and other forms of analysis, they have
-  a [free certification program](https://www.agi.com/training-and-certification#cert) we recommend people check out!
+  a [free certification program](https://www.agi.com/training-and-certification#cert) we recommend people check
+  out! [Instructions](https://www.library.yorku.ca/binaries/Steacie/phys4350/InstructSTK10.pdf) to Install VPN client
+  and STK software for Lassonde students.
 - **Siemens NX** Computer-aided design (CAD) and Finite Element Analysis (FEA) application commonly used in the space
   industry to perform structural and thermal analysis.
 - **Altium Designer** Circuit board design application we use to design our solar arrays and other circuit boards.
