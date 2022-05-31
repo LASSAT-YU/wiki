@@ -25,7 +25,6 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 logo = "logo.png"
+favicon = "favicon.png"
 easydocs_logo_always_clickable = true
 
-#Need to get a page icon
-#favicon = "favicon.ico"
