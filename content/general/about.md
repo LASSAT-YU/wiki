@@ -30,8 +30,7 @@ Note: Link to channel only works if you have already joined the server).
 There are 6 teams (1 per subsystem):
 
 - [**Attitude Control System (ACS)**](@/acs/_index.md) Monitors and adjusts a satellite's orientation while in orbit.
-  Usually, a CubeSat ACS
-  consists of reaction wheels and magnetorquers.
+  Usually, a CubeSat ACS consists of reaction wheels and magnetorquers.
 - [**Communications**](@/communications/_index.md) Responsible for uplink and downlink between the CubeSat and ground
   stations, antenna design, etc.
 - [**Electrical**](@/electrical/_index.md) Printed circuit board (PCB) design, solar panel array design, power budgets,
@@ -39,8 +38,7 @@ There are 6 teams (1 per subsystem):
 - [**Mechanical**](@/mechanical/_index.md) Structural and thermal analysis of the CubeSat, 3D modelling, manufacturing,
   and assembly planning.
 - [**Payload**](@/payload/_index.md) Varies based on the project. In previous CSDC missions there were payloads meant to
-  take optical,
-  atmospheric, and other forms of data.
+  take optical, atmospheric, and other forms of data.
 - [**Software**](@/software/_index.md) Programs the on-board computer (OBC) and all other software needs.
 
 More information can be found in the section of the wiki for each subsystem and also fee free to ask question on
