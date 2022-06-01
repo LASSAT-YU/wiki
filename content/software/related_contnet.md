@@ -8,9 +8,13 @@ title = "Related Articles and Content"
 
 In this episode they spoke about low power modes. Sound like we should look into this once we get the basics covered.
 
+---
+
 ### [RTEMS - A real time operating system with flight heritage](https://podcasts.google.com/feed/aHR0cHM6Ly9tYWtpbmdlbWJlZGRlZHN5c3RlbXMubGlic3luLmNvbS9yc3M/episode/ZDYzZWYwMDk1M2Y4MGFiMmUzNTdlYTAwMTI3OTJkY2Q?ep=14)
 
 In this episode they spoke to one of the maintainers of [RTEMS](http://www.rtems.org/).
+
+---
 
 ## [CoRecursive: Coding Stories (Podcast)](https://podcasts.google.com/feed/aHR0cHM6Ly9jb3JlY3Vyc2l2ZS5jb20vZmVlZA?sa=X&ved=0CAMQ4aUDahcKEwjYhInzsIT4AhUAAAAAHQAAAAAQAQ)
 
@@ -18,3 +22,5 @@ In this episode they spoke to one of the maintainers of [RTEMS](http://www.rtems
 
 In this episode Adam speaks with [Ron Garret](https://rongarret.info/) about software development for a space mission
 using a language built on top of LISP.
+
+---
