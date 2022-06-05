@@ -112,6 +112,8 @@ In summary what you need to know is:
 
 ### Creating the Pull request (Actually submitting your changes) {#pull-request}
 
-Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
-
 #### Using only GitHub.com
+
+#### By cloning locally and previewing with zola
+
+Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
