@@ -138,16 +138,23 @@
             
         <h2 id="wiki-update">Wiki Update&nbsp;<a class="anchor" href="#wiki-update">&#xE732;</a></h2>
 <h3 id="setup-overview">Setup Overview&nbsp;<a class="anchor" href="#setup-overview">&#xE732;</a></h3>
-<p>The wiki is hosted using GitHub pages <a href="https://lassat-yu.github.io/wiki/">here</a>. When users navigate to that link GitHub renders the static
-website rooted in the <code>/docs</code> folder. We use a static site generator named <a href="https://www.getzola.org/">Zola</a> to generate
-the static html from templates and markdown files. The actual wiki content is written in markdown files with a front
-matter section that can be must be placed at the top of the file. We only need to set the page title in that section. It
-would look something like:</p>
+<p>The source files for the wiki are hosted on GitHub <a href="https://github.com/LASSAT-YU/wiki/">here</a>. We are using GitHub Pages
+to host the <a href="https://lassat-yu.github.io/wiki/">wiki</a>. GitHub renders the static website rooted in
+the <a href="https://github.com/LASSAT-YU/wiki/tree/main/docs"><code>/docs</code></a> folder. We use a static site generator
+named <a href="https://www.getzola.org/">Zola</a> to generate the static html from templates and markdown files. The actual wiki
+<a href="https://github.com/LASSAT-YU/wiki/tree/main/content">content</a> is written in markdown files with a front matter section
+that must be placed at the top of the file. We only need to set the page title in that section. It would look
+something like:</p>
 <pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>+++
 </span><span>title = &quot;Reference Guide&quot;
 </span><span>+++
+</span><span>
+</span><span>And content goes here
 </span></code></pre>
-<p>Followed by the content of the page. If you are unfamiliar with markdown see the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">markdown</a> section. The
+<p>Followed by the content of the page. The structure is very simple, each folder
+inside of <a href="https://github.com/LASSAT-YU/wiki/tree/main/content">content</a> defines a section and each .md file inside
+the folder defines a page.</p>
+<p>If you are unfamiliar with markdown see the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">markdown</a> section. The
 templates are part of the theme and can be found in the &quot;themes&quot; folder. To compile or preview the content you will need
 to <a href="https://www.getzola.org/documentation/getting-started/installation/">install zola</a>. If you do not require to preview
 your changes you can proceed to make your edit without installing zola and mention in your <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#pull-request">pull request</a>
@@ -211,11 +218,14 @@ write <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">mar
 relevant front matter information as indicated in
 the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">overview</a>.</li>
 <li>If you need to include images or other assets that need to be uploaded see the zola documentation
-regarding <a href="https://www.getzola.org/documentation/content/overview/#asset-colocation">asset colocation</a>. In their
+regarding <a href="https://www.getzola.org/documentation/content/overview/#asset-colocation">asset collocation</a>. In their
 example the &quot;research&quot; folder corresponds to one of our subsystem folders.</li>
 <li>Feel free to reach out on <a href="https://discord.gg/JBCdZRm">discord</a> if you have any questions.</li>
 </ul>
 <h3 id="pull-request">Creating the Pull request (Actually submitting your changes)&nbsp;<a class="anchor" href="#pull-request">&#xE732;</a></h3>
+<h4 id="using-only-github-com">Using only GitHub.com&nbsp;<a class="anchor" href="#using-only-github-com">&#xE732;</a></h4>
+<p>Detailed instructions to come for now please reach out on <a href="https://discord.gg/JBCdZRm">discord</a>.</p>
+<h4 id="by-cloning-locally-and-previewing-with-zola">By cloning locally and previewing with zola&nbsp;<a class="anchor" href="#by-cloning-locally-and-previewing-with-zola">&#xE732;</a></h4>
 <p>Detailed instructions to come for now please reach out on <a href="https://discord.gg/JBCdZRm">discord</a>.</p>
 
     
