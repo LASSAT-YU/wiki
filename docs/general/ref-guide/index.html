@@ -3,259 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://lassat-yu.github.io/wiki/main.css">
-    
-        <link rel="icon" href="https://lassat-yu.github.io/wiki/favicon.png">
-    
+    <link rel="icon" href="https://lassat-yu.github.io/wiki/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title> LASSAT Wiki | Reference Guide </title>
 </head>
 <body>
 
-
 <main>
 
-    
-
-        <nav>
-            
-                <a href="https:&#x2F;&#x2F;lassat-yu.github.io&#x2F;wiki&#x2F;">
-                    <img src="https://lassat-yu.github.io/wiki/logo.png" alt=""/>
-                </a>
-                
-
-            
-
-            
-
-            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+    <nav>
+            <a href="https:&#x2F;&#x2F;lassat-yu.github.io&#x2F;wiki&#x2F;">
+                        <img src="https://lassat-yu.github.io/wiki/logo.png" alt=""/>
+                    </a>
+                <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
             <div id="trees">
-                
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="general"
+                <input class="tree-toggle" type="checkbox" id="general"
                            checked/>
                     <label class="tree-toggle-label"
                            for="general">General</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/general/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
                             <li class="active">
                                 <a href="https://lassat-yu.github.io/wiki/general/ref-guide/">Reference Guide</a>
                             </li>
 
-                            
-
-                                
-
-                                    
-                                    
-                                        
-                                        
-                                            
-                                            
-                                        
-                                            
-                                            
-                                                
-                                            
-                                        
-                                            
-                                            
-                                        
-                                            
-                                            
-                                        
-                                    
-
-                                    
-                                        <ul id="toc">
-                                            
-                                                <li><a href="https://lassat-yu.github.io/wiki/general/ref-guide/#wiki-update">Wiki Update</a>
-                                                    
-                                                        <ul>
-                                                            
-                                                                <li>
+                            <ul id="toc">
+                                            <li><a href="https://lassat-yu.github.io/wiki/general/ref-guide/#wiki-update">Wiki Update</a>
+                                                    <ul>
+                                                            <li>
                                                                     <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">Setup Overview</a>
                                                                 </li>
-                                                            
-                                                                <li>
+                                                            <li>
                                                                     <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">Markdown</a>
                                                                 </li>
-                                                            
-                                                                <li>
+                                                            <li>
                                                                     <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#zola">Zola</a>
                                                                 </li>
-                                                            
-                                                                <li>
+                                                            <li>
                                                                     <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#pull-request">Creating the Pull request (Actually submitting your changes)</a>
                                                                 </li>
-                                                            
-                                                        </ul>
-                                                    
-                                                </li>
-                                            
-                                        </ul>
-                                    
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="acs"
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    </ul>
+                <input class="tree-toggle" type="checkbox" id="acs"
                            />
                     <label class="tree-toggle-label"
                            for="acs">ACS</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/acs/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="communications"
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="communications"
                            />
                     <label class="tree-toggle-label"
                            for="communications">Communications</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/communications/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="electrical"
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="electrical"
                            />
                     <label class="tree-toggle-label"
                            for="electrical">Electrical</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/electrical/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="mechanical"
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="mechanical"
                            />
                     <label class="tree-toggle-label"
                            for="mechanical">Mechanical</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/mechanical/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="payload"
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="payload"
                            />
                     <label class="tree-toggle-label"
                            for="payload">Payload</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/payload/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-                    
-
-
-                    <input class="tree-toggle" type="checkbox" id="software"
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="software"
                            />
                     <label class="tree-toggle-label"
                            for="software">Software</label>
 
                     <ul class="subtree">
-                        
-                            <li >
+                        <li >
                                 <a href="https://lassat-yu.github.io/wiki/software/about/">About</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
                             <li >
                                 <a href="https://lassat-yu.github.io/wiki/software/related-contnet/">Related Articles and Content</a>
                             </li>
 
-                            
-
-                                
-                            
-                        
-                    </ul>
-                
-            </div>
+                            </ul>
+                </div>
         </nav>
-    
-
     <article>
 
-        
-            <div id="on_right">
+        <div id="on_right">
                 <span id="search-ico" class="ms-Icon--Search"></span>
             </div>
             <div class="search-container">
@@ -265,22 +134,27 @@
                     <ul class="search-results__items"></ul>
                 </div>
             </div>
-        
-
         <div id="wrap">
             
         <h2 id="wiki-update">Wiki Update&nbsp;<a class="anchor" href="#wiki-update">&#xE732;</a></h2>
 <h3 id="setup-overview">Setup Overview&nbsp;<a class="anchor" href="#setup-overview">&#xE732;</a></h3>
-<p>The wiki is hosted using GitHub pages <a href="https://lassat-yu.github.io/wiki/">here</a>. When users navigate to that link GitHub renders the static
-website rooted in the <code>/docs</code> folder. We use a static site generator named <a href="https://www.getzola.org/">Zola</a> to generate
-the static html from templates and markdown files. The actual wiki content is written in markdown files with a front
-matter section that can be must be placed at the top of the file. We only need to set the page title in that section. It
-would look something like:</p>
+<p>The source files for the wiki are hosted on GitHub <a href="https://github.com/LASSAT-YU/wiki/">here</a>. We are using GitHub Pages
+to host the <a href="https://lassat-yu.github.io/wiki/">wiki</a>. GitHub renders the static website rooted in
+the <a href="https://github.com/LASSAT-YU/wiki/tree/main/docs"><code>/docs</code></a> folder. We use a static site generator
+named <a href="https://www.getzola.org/">Zola</a> to generate the static html from templates and markdown files. The actual wiki
+<a href="https://github.com/LASSAT-YU/wiki/tree/main/content">content</a> is written in markdown files with a front matter section
+that must be placed at the top of the file. We only need to set the page title in that section. It would look
+something like:</p>
 <pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>+++
 </span><span>title = &quot;Reference Guide&quot;
 </span><span>+++
+</span><span>
+</span><span>And content goes here
 </span></code></pre>
-<p>Followed by the content of the page. If you are unfamiliar with markdown see the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">markdown</a> section. The
+<p>Followed by the content of the page. The structure is very simple, each folder
+inside of <a href="https://github.com/LASSAT-YU/wiki/tree/main/content">content</a> defines a section and each .md file inside
+the folder defines a page.</p>
+<p>If you are unfamiliar with markdown see the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">markdown</a> section. The
 templates are part of the theme and can be found in the &quot;themes&quot; folder. To compile or preview the content you will need
 to <a href="https://www.getzola.org/documentation/getting-started/installation/">install zola</a>. If you do not require to preview
 your changes you can proceed to make your edit without installing zola and mention in your <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#pull-request">pull request</a>
@@ -344,11 +218,14 @@ write <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">mar
 relevant front matter information as indicated in
 the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">overview</a>.</li>
 <li>If you need to include images or other assets that need to be uploaded see the zola documentation
-regarding <a href="https://www.getzola.org/documentation/content/overview/#asset-colocation">asset colocation</a>. In their
+regarding <a href="https://www.getzola.org/documentation/content/overview/#asset-colocation">asset collocation</a>. In their
 example the &quot;research&quot; folder corresponds to one of our subsystem folders.</li>
 <li>Feel free to reach out on <a href="https://discord.gg/JBCdZRm">discord</a> if you have any questions.</li>
 </ul>
 <h3 id="pull-request">Creating the Pull request (Actually submitting your changes)&nbsp;<a class="anchor" href="#pull-request">&#xE732;</a></h3>
+<h4 id="using-only-github-com">Using only GitHub.com&nbsp;<a class="anchor" href="#using-only-github-com">&#xE732;</a></h4>
+<p>Detailed instructions to come for now please reach out on <a href="https://discord.gg/JBCdZRm">discord</a>.</p>
+<h4 id="by-cloning-locally-and-previewing-with-zola">By cloning locally and previewing with zola&nbsp;<a class="anchor" href="#by-cloning-locally-and-previewing-with-zola">&#xE732;</a></h4>
 <p>Detailed instructions to come for now please reach out on <a href="https://discord.gg/JBCdZRm">discord</a>.</p>
 
     
@@ -361,7 +238,5 @@ example the &quot;research&quot; folder corresponds to one of our subsystem fold
     <script type="text/javascript" src="https://lassat-yu.github.io/wiki/elasticlunr.min.js" defer></script>
     <script type="text/javascript" src="https://lassat-yu.github.io/wiki/search_index.en.js" defer></script>
     <script type="text/javascript" src="https://lassat-yu.github.io/wiki/js.js" defer></script>
-
-
 </body>
 </html>
