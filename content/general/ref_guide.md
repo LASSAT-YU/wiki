@@ -114,6 +114,8 @@ In summary what you need to know is:
 
 #### Using only GitHub.com
 
+Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
+
 #### By cloning locally and previewing with zola
 
 Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
