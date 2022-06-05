@@ -6,19 +6,27 @@ title = "Reference Guide"
 
 ### Setup Overview
 
-The wiki is hosted using GitHub pages [here](@/_index.md). When users navigate to that link GitHub renders the static
-website rooted in the `/docs` folder. We use a static site generator named [Zola](https://www.getzola.org/) to generate
-the static html from templates and markdown files. The actual wiki content is written in markdown files with a front
-matter section that can be must be placed at the top of the file. We only need to set the page title in that section. It
-would look something like:
+The source files for the wiki are hosted on GitHub [here](https://github.com/LASSAT-YU/wiki/). We are using GitHub Pages
+to host the [wiki](@/_index.md). GitHub renders the static website rooted in
+the [`/docs`](https://github.com/LASSAT-YU/wiki/tree/main/docs) folder. We use a static site generator
+named [Zola](https://www.getzola.org/) to generate the static html from templates and markdown files. The actual wiki
+[content](https://github.com/LASSAT-YU/wiki/tree/main/content) is written in markdown files with a front matter section
+that must be placed at the top of the file. We only need to set the page title in that section. It would look
+something like:
 
 ```
 +++
 title = "Reference Guide"
 +++
+
+And content goes here
 ```
 
-Followed by the content of the page. If you are unfamiliar with markdown see the [markdown](#markdown) section. The
+Followed by the content of the page. The structure is very simple, each folder
+inside of [content](https://github.com/LASSAT-YU/wiki/tree/main/content) defines a section and each .md file inside
+the folder defines a page.
+
+If you are unfamiliar with markdown see the [markdown](#markdown) section. The
 templates are part of the theme and can be found in the "themes" folder. To compile or preview the content you will need
 to [install zola](https://www.getzola.org/documentation/getting-started/installation/). If you do not require to preview
 your changes you can proceed to make your edit without installing zola and mention in your [pull request](#pull-request)
@@ -98,7 +106,7 @@ In summary what you need to know is:
   relevant front matter information as indicated in
   the [overview](#setup-overview).
 - If you need to include images or other assets that need to be uploaded see the zola documentation
-  regarding [asset colocation](https://www.getzola.org/documentation/content/overview/#asset-colocation). In their
+  regarding [asset collocation](https://www.getzola.org/documentation/content/overview/#asset-colocation). In their
   example the "research" folder corresponds to one of our subsystem folders.
 - Feel free to reach out on [discord](https://discord.gg/JBCdZRm) if you have any questions.
 
