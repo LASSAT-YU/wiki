@@ -2,47 +2,53 @@
 title = "Reference Guide"
 +++
 
-## Wiki Update
+## Setup Overview
 
-### Setup Overview
-
-The source files for the wiki are hosted on GitHub [here](https://github.com/LASSAT-YU/wiki/). We are using GitHub Pages
-to host the [wiki](@/_index.md). GitHub renders the static website rooted in
-the [`/docs`](https://github.com/LASSAT-YU/wiki/tree/main/docs) folder. We use a static site generator
-named [Zola](https://www.getzola.org/) to generate the static html from templates and markdown files. The actual wiki
-[content](https://github.com/LASSAT-YU/wiki/tree/main/content) is written in markdown files with a front matter section
-that must be placed at the top of the file. We only need to set the page title in that section. It would look
-something like:
+The source files for the wiki are on [GitHub](https://github.com/LASSAT-YU/wiki/tree/next).
+We are using GitHub Pages to host the [wiki](@/_index.md).
+GitHub renders the static website at the root of the `gh-pages` branch.
+This is the target branch for the build script that we are using.
+We are using a static site generator named [Zola](https://www.getzola.org/) to generate the static html from templates
+and markdown files.
+The actual wiki [content][content] is written in markdown files with a front matter section that must be placed at the
+top of
+the file.
+We only need to set the page title in that section.
+The front matter starts with a line of three plus signs and ends the same way, `+++`.  
+Followed by the content of the page.
+It would look something like:
 
 ```
 +++
 title = "Reference Guide"
 +++
 
-And content goes here
+And content goes here in markdown format
 ```
 
-Followed by the content of the page. The structure is very simple, each folder
-inside of [content](https://github.com/LASSAT-YU/wiki/tree/main/content) defines a section and each .md file inside
-the folder defines a page.
+## Content Structure
 
-If you are unfamiliar with markdown see the [markdown](#markdown) section. The
-templates are part of the theme and can be found in the "themes" folder. To compile or preview the content you will need
-to [install zola](https://www.getzola.org/documentation/getting-started/installation/). If you do not require to preview
-your changes you can proceed to make your edit without installing zola and mention in your [pull request](#pull-request)
-that the changes have not been compiled yet. Once the templates and markdown have been compiled using
-the `zola build` [command](https://www.getzola.org/documentation/getting-started/cli-usage/#build) then the docs folder
-should contain the generated html, css, js, etc files.
+The structure is very simple, each folder inside of [content][content] represents a subsystem and
+each .md file inside the folder defines a page.
 
-### Markdown
+The HTML templates are part of the theme and can be found in the "themes" folder.
+You will not normally need to make any modifications to these.
+If you do think a change is needed to the template or anything other than the content please open an issue on
+our [repo](https://github.com/LASSAT-YU/wiki/issues) or talk to us about it in our [discord server][discord].
 
-Zola and by extension this Wiki uses [CommonMark](https://commonmark.org/). They have very good reference material on
-their site. For getting started quickly or easy reference they
-have [Learn Markdown in 60 Seconds](https://commonmark.org/help/) and if you are new to markdown or want a more complete
-tutorial they have a [10 Minute Markdown Tutorial](https://commonmark.org/help/tutorial/). The tutorial is very good. It
-is interactive, and you get to try the content and get feedback in realtime.
+## Markdown
 
-#### Collapsable sections
+Zola and by extension this Wiki uses [CommonMark](https://commonmark.org/).
+They have very good reference material on their site.
+For getting started quickly or easy reference they have [Learn Markdown in 60 Seconds](https://commonmark.org/help/) and
+if you are new to markdown or want a more complete
+tutorial they have a [10 Minute Markdown Tutorial](https://commonmark.org/help/tutorial/).
+The tutorial is very good.
+It is interactive, and you get to try the content and get feedback in realtime.
+It's also good to get more detail on a particular aspect of markdown, by using the index on the right side in during the
+tutorial.
+
+### Collapsable sections
 
 Source: <https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab>
 
@@ -93,29 +99,89 @@ malesuada.
    show correctly.
 2. Make sure you have an **empty line** after the closing `</details>` tag if you have multiple collapsible sections.
 
-### Zola
+## Zola
 
 The Zola documentation can be found on their [website](https://www.getzola.org/documentation/getting-started/overview/).
-Knowing the details of how it works is not required to make updates to this wiki. Once you understand how to
-write [markdown](#markdown) then you should be fine.
+Knowing the details of how it works is not required to make updates to this wiki.
+Once you understand how to write [markdown](#markdown) then you should be fine.
+
+## Summary
 
 In summary what you need to know is:
 
-- each subsystem has a section created for them which is represented by a folder inside the content folder.
+- each subsystem has a section created for them which is represented by a folder inside the [content][content] folder.
 - To add a new page create a file ending in `.md` in one of the subsystem folders.The top of the file must have the
-  relevant front matter information as indicated in
-  the [overview](#setup-overview).
+  relevant front matter information as indicated in the [overview](#setup-overview).
 - If you need to include images or other assets that need to be uploaded see the zola documentation
   regarding [asset collocation](https://www.getzola.org/documentation/content/overview/#asset-colocation). In their
   example the "research" folder corresponds to one of our subsystem folders.
-- Feel free to reach out on [discord](https://discord.gg/JBCdZRm) if you have any questions.
+- Feel free to reach out on [discord][discord] if you have any questions.
 
-### Creating the Pull request (Actually submitting your changes) {#pull-request}
+## Updating Wiki {#wiki-update}
 
-#### Using only GitHub.com
+The process can be completed entirely in your browser on github.com.
 
-Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
+### Find subsystem to change
 
-#### By cloning locally and previewing with zola
+Find the folder for the subsystem that you want to make the update to.
+The folders can be found in the [content][content] folder on our github.
 
-Detailed instructions to come for now please reach out on [discord](https://discord.gg/JBCdZRm).
+### Make change
+
+Once you have found the folder for the subsystem that you want to make the update to, you need to either add a new file
+or edit an existing file.
+For either option, ensure you are making changes against the `next` branch
+
+#### Add new file
+
+![Add File](add_file.png)
+
+Click the `Add file` button.
+Ensure the new filename ends in `.md`.
+The top of the file must contain the front matter followed by the contents (See [overview](#setup-overview) for an
+example).
+
+#### Edit existing file
+
+![Edit File](edit_file.png)
+
+Select the file that you want to edit and click the edit icon.
+Make any necessary additions or corrections.
+
+### Submit changes made
+
+Once you have created or edited a file you'll need to submit those changes for review.
+Scroll all the way to the bottom of the page.
+
+![Commit Message](commit_message.png)
+
+At this point you can put in a short description of the change made in this box.
+If a longer message is needed please put a summary in this box and the longer description in the larger box bellow.
+
+![Propose Changes](propose_change.png)
+
+Once you are happy with the commit message click the `Propose changes` button.
+
+At this point if you have more changes to make feel free to add/edit more files starting over
+from [subsystem selection](#find-subsystem-to-change).
+
+### Create Pull Request
+
+### Start Pull Request
+
+![Start Pull Request](start_pull_request.png)
+
+Near the top of the page you'll find the `Create pull request` button.
+After ensuring that you are targeting the `next` branch click the `Create pull request` button.
+
+### Submit Pull Request
+
+![Submit Pull Request](create_pull_request.png)
+
+Then you should only need to click `Create pull request` on the next screen to submit the request for review.
+
+If you have any issues please reach out on [discord][discord].
+
+[discord]: https://discord.gg/JBCdZRm
+
+[content]: https://github.com/LASSAT-YU/wiki/tree/next/content
