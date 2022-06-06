@@ -11,7 +11,7 @@ This is the Lassonde Satellite Club (LASSAT) Wiki feel free to look around and r
 on [discord](https://discord.gg/JBCdZRm) if you have any questions.
 
 If you find any errors or want to add / update any content please see
-the [reference materials](@/general/ref_guide.md#wiki-update).
+the [reference materials](@/general/ref_guide/index.md#wiki-update).
 
 The Lassonde Satellite Club is the York University representative for the bi-annual Canadian Satellite Design
 Competition (CSDC). We provide students of all disciplines an opportunity to develop hands on technical skills. Members
