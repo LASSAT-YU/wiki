@@ -14,7 +14,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
       - name: Build only
-        uses: shalzz/zola-deploy-action@master
+        uses: LASSAT-YU/zola-deploy-action@master
         env:
           BUILD_DIR: .
           BUILD_ONLY: true
@@ -28,7 +28,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v3.0.0
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@master
+        uses: LASSAT-YU/zola-deploy-action@master
         env:
           BUILD_DIR: .
           PAGES_BRANCH: gh-pages
