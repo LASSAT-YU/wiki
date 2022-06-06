@@ -174,14 +174,14 @@ from [subsystem selection](#find-subsystem-to-change).
 
 ### Create Pull Request
 
-### Start Pull Request
+#### Start Pull Request
 
 ![Start Pull Request](start_pull_request.png)
 
 Near the top of the page you'll find the `Create pull request` button.
 After ensuring that you are targeting the `next` branch click the `Create pull request` button.
 
-### Submit Pull Request
+#### Submit Pull Request
 
 ![Submit Pull Request](create_pull_request.png)
 
