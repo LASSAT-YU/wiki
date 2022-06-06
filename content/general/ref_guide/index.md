@@ -147,6 +147,14 @@ example).
 Select the file that you want to edit and click the edit icon.
 Make any necessary additions or corrections.
 
+### Preview Changes
+
+![Preview](preview.png)
+
+Optionally you can make use of the preview feature offered by GitHub.
+It will allow preview of most of the markdown features, but it will not for example remove things like the front matter
+from the output and any other zola specific things.
+
 ### Submit changes made
 
 Once you have created or edited a file you'll need to submit those changes for review.
