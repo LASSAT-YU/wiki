@@ -14,13 +14,13 @@ The actual wiki [content][content] is written in markdown files with a front mat
 top of
 the file.
 We only need to set the page title in that section.
-The front matter starts with a line of three plus signs and ends the same way, `+++`.  
+The front matter starts with a line of three plus signs and ends the same way, `+++`.
 Followed by the content of the page.
 It would look something like:
 
 ```
 +++
-title = "Reference Guide"
+title = "Title goes here"
 +++
 
 And content goes here in markdown format
@@ -28,9 +28,8 @@ And content goes here in markdown format
 
 ## Content Structure
 
-The structure is very simple, each folder inside of [content][content] represents a subsystem and
-each .md file inside the folder defines a page.
-
+The structure is very simple, each folder inside the [content][content] folder represents a subsystem.
+Each .md file inside those folders defines a page.
 The HTML templates are part of the theme and can be found in the "themes" folder.
 You will not normally need to make any modifications to these.
 If you do think a change is needed to the template or anything other than the content please open an issue on
@@ -39,7 +38,7 @@ our [repo](https://github.com/LASSAT-YU/wiki/issues) or talk to us about it in o
 ## Markdown
 
 Zola and by extension this Wiki uses [CommonMark](https://commonmark.org/).
-They have very good reference material on their site.
+CommonMark has very good reference material on their site.
 For getting started quickly or easy reference they have [Learn Markdown in 60 Seconds](https://commonmark.org/help/) and
 if you are new to markdown or want a more complete
 tutorial they have a [10 Minute Markdown Tutorial](https://commonmark.org/help/tutorial/).
