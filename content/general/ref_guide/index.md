@@ -5,7 +5,7 @@ title = "Reference Guide"
 ## Setup Overview
 
 The source files for the wiki are on [GitHub](https://github.com/LASSAT-YU/wiki/tree/next).
-We are using GitHub Pages to host the [wiki](@/_index.md).
+We are using GitHub Pages to host the [wiki](@/_index.md_wrong).
 GitHub renders the static website at the root of the `gh-pages` branch.
 This is the target branch for the build script that we are using.
 We are using a static site generator named [Zola](https://www.getzola.org/) to generate the static html from templates
