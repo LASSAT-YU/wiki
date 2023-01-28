@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://lassat-yu.github.io/wiki/main.css">
+    <link rel="icon" href="https://lassat-yu.github.io/wiki/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> LASSAT Wiki | Reference Guide </title>
+</head>
+<body>
+
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;lassat-yu.github.io&#x2F;wiki&#x2F;">
+                        <img src="https://lassat-yu.github.io/wiki/logo.png" alt="logo"/>
+                    </a>
+                <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="general"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="general">General</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/general/about/">About</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="https://lassat-yu.github.io/wiki/general/ref-guide/">Reference Guide</a>
+                            </li>
+
+                            
+                                    
+                                    
+                                        <ul id="toc">
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">Setup Overview</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#content-structure">Content Structure</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">Markdown</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#collapsable-sections">Collapsable sections</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#zola">Zola</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#summary">Summary</a>
+                                                    </li>
+                                            <li><a href="
+                                                        https://lassat-yu.github.io/wiki/general/ref-guide/#wiki-update">Updating Wiki</a>
+                                                    <ul>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#find-subsystem-to-change">Find subsystem to change</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#make-change">Make change</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#preview-changes">Preview Changes</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#submit-changes-made">Submit changes made</a>
+                                                                </li>
+                                                            <li>
+                                                                    <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#create-pull-request">Create Pull Request</a>
+                                                                </li>
+                                                            </ul>
+                                                    </li>
+                                            </ul>
+                                    </ul>
+                <input class="tree-toggle" type="checkbox" id="acs"
+                           />
+                    <label class="tree-toggle-label"
+                           for="acs">ACS</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/acs/about/">About</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="communications"
+                           />
+                    <label class="tree-toggle-label"
+                           for="communications">Communications</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/communications/about/">About</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="electrical"
+                           />
+                    <label class="tree-toggle-label"
+                           for="electrical">Electrical</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/electrical/about/">About</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="mechanical"
+                           />
+                    <label class="tree-toggle-label"
+                           for="mechanical">Mechanical</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/mechanical/about/">About</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="payload"
+                           />
+                    <label class="tree-toggle-label"
+                           for="payload">Payload</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/payload/about/">About</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="software"
+                           />
+                    <label class="tree-toggle-label"
+                           for="software">Software</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://lassat-yu.github.io/wiki/software/about/">About</a>
+                            </li>
+
+                            <li >
+                                <a href="https://lassat-yu.github.io/wiki/software/related-contnet/">Related Articles and Content</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+
+        <div id="on_right">
+                <span id="search-ico" class="ms-Icon--Search"></span>
+            </div>
+            <div class="search-container">
+                <input id="search" type="search" placeholder="Search as you type...">
+                <div class="search-results">
+                    <div class="search-results__header"></div>
+                    <ul class="search-results__items"></ul>
+                </div>
+            </div>
+        <div id="wrap">
+            
+        <h2 id="setup-overview">Setup Overview&nbsp;<a class="anchor" href="#setup-overview">&#xE732;</a></h2>
+<p>The source files for the wiki are on <a href="https://github.com/LASSAT-YU/wiki/tree/next">GitHub</a>.
+We are using GitHub Pages to host the <a href="https://lassat-yu.github.io/wiki/">wiki</a>.
+GitHub renders the static website at the root of the <code>gh-pages</code> branch.
+This is the target branch for the build script that we are using.
+We are using a static site generator named <a href="https://www.getzola.org/">Zola</a> to generate the static html from templates
+and markdown files.
+The actual wiki <a href="https://github.com/LASSAT-YU/wiki/tree/next/content">content</a> is written in markdown files with a front matter section that must be placed at the
+top of
+the file.
+We only need to set the page title in that section.
+The front matter starts with a line of three plus signs and ends the same way, <code>+++</code>.
+Followed by the content of the page.
+It would look something like:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>+++
+</span><span>title = &quot;Title goes here&quot;
+</span><span>+++
+</span><span>
+</span><span>And content goes here in markdown format
+</span></code></pre>
+<h2 id="content-structure">Content Structure&nbsp;<a class="anchor" href="#content-structure">&#xE732;</a></h2>
+<p>The structure is very simple, each folder inside the <a href="https://github.com/LASSAT-YU/wiki/tree/next/content">content</a> folder represents a subsystem.
+Each .md file inside those folders defines a page.
+The HTML templates are part of the theme and can be found in the &quot;themes&quot; folder.
+You will not normally need to make any modifications to these.
+If you do think a change is needed to the template or anything other than the content please open an issue on
+our <a href="https://github.com/LASSAT-YU/wiki/issues">repo</a> or talk to us about it in our <a href="https://discord.gg/jvVBswdUeS">discord server</a>.</p>
+<h2 id="markdown">Markdown&nbsp;<a class="anchor" href="#markdown">&#xE732;</a></h2>
+<p>Zola and by extension this Wiki uses <a href="https://commonmark.org/">CommonMark</a>.
+CommonMark has very good reference material on their site.
+For getting started quickly or easy reference they have <a href="https://commonmark.org/help/">Learn Markdown in 60 Seconds</a> and
+if you are new to markdown or want a more complete
+tutorial they have a <a href="https://commonmark.org/help/tutorial/">10 Minute Markdown Tutorial</a>.
+The tutorial is very good.
+It is interactive, and you get to try the content and get feedback in realtime.
+It's also good to get more detail on a particular aspect of markdown, by using the index on the right side in during the
+tutorial.</p>
+<h3 id="collapsable-sections">Collapsable sections&nbsp;<a class="anchor" href="#collapsable-sections">&#xE732;</a></h3>
+<p>Source: <a href="https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab">https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab</a></p>
+<p>Example:</p>
+<details>
+  <summary>Click to expand!</summary>
+<p>Detailed body shows when you click.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum enim lorem, placerat sed vestibulum a, pellentesque
+at leo. Vivamus tincidunt nisi massa, nec pellentesque diam mollis vel. Vestibulum turpis mauris, placerat id lectus ac,
+varius imperdiet libero. Ut tortor lorem, scelerisque eu elit vitae, eleifend gravida justo. Cras risus est, maximus non
+dapibus quis, placerat ullamcorper diam. Ut vitae justo purus. Donec enim dolor, sodales et tempor vehicula, rutrum
+vitae eros. Praesent commodo urna vitae pretium venenatis. Praesent lectus est, finibus sed lobortis at, finibus sit
+amet velit. Maecenas varius tincidunt neque, sed ultricies lectus cursus ut. Phasellus auctor fermentum venenatis.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus eu velit consectetur,
+pretium ipsum eget, pharetra massa. Duis sed posuere nisl. Proin a pharetra sapien, sit amet sollicitudin nisi. Nulla
+dolor nunc, interdum id convallis vitae, maximus ac elit.</p>
+<p>Proin ullamcorper lorem id dui commodo hendrerit. Etiam vitae commodo ipsum. Aliquam placerat ex sed dolor eleifend, id
+pulvinar lorem dictum. Duis in massa tortor. Maecenas leo quam, luctus at egestas ac, tincidunt a odio. Pellentesque
+cursus mi egestas leo viverra egestas. Nulla quis velit sit amet tellus aliquet mollis sed sed justo. Vivamus interdum
+porta ultricies. Nulla quis ex in arcu consequat auctor quis et ligula. Phasellus pellentesque nibh quis risus pretium
+malesuada.
+<strong>Generated 2 paragraphs, 219 words, 1490 bytes of <a href="https://www.lipsum.com/">Lorem Ipsum</a></strong></p>
+</details>
+<p><strong>How to Structure</strong></p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>&lt;details&gt;
+</span><span>   &lt;summary&gt;Click to expand!&lt;/summary&gt;
+</span><span>
+</span><span>   Detailed body shows when you click.
+</span><span>   
+</span><span>   ...
+</span><span>   
+</span><span>   ... 
+</span><span>
+</span><span>&lt;/details&gt;
+</span></code></pre>
+<p><strong>Two important rules:</strong></p>
+<ol>
+<li>Make sure you have an <strong>empty line</strong> after the closing <code>&lt;/summary&gt;</code> tag, otherwise the markdown/code blocks won't
+show correctly.</li>
+<li>Make sure you have an <strong>empty line</strong> after the closing <code>&lt;/details&gt;</code> tag if you have multiple collapsible sections.</li>
+</ol>
+<h2 id="zola">Zola&nbsp;<a class="anchor" href="#zola">&#xE732;</a></h2>
+<p>The Zola documentation can be found on their <a href="https://www.getzola.org/documentation/getting-started/overview/">website</a>.
+Knowing the details of how it works is not required to make updates to this wiki.
+Once you understand how to write <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#markdown">markdown</a> then you should be fine.</p>
+<h2 id="summary">Summary&nbsp;<a class="anchor" href="#summary">&#xE732;</a></h2>
+<p>In summary what you need to know is:</p>
+<ul>
+<li>each subsystem has a section created for them which is represented by a folder inside the <a href="https://github.com/LASSAT-YU/wiki/tree/next/content">content</a> folder.</li>
+<li>To add a new page create a file ending in <code>.md</code> in one of the subsystem folders.The top of the file must have the
+relevant front matter information as indicated in the <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">overview</a>.</li>
+<li>If you need to include images or other assets that need to be uploaded see the zola documentation
+regarding <a href="https://www.getzola.org/documentation/content/overview/#asset-colocation">asset collocation</a>. In their
+example the &quot;research&quot; folder corresponds to one of our subsystem folders.</li>
+<li>Feel free to reach out on <a href="https://discord.gg/jvVBswdUeS">discord</a> if you have any questions.</li>
+</ul>
+<h2 id="wiki-update">Updating Wiki&nbsp;<a class="anchor" href="#wiki-update">&#xE732;</a></h2>
+<p>The process can be completed entirely in your browser on github.com.</p>
+<h3 id="find-subsystem-to-change">Find subsystem to change&nbsp;<a class="anchor" href="#find-subsystem-to-change">&#xE732;</a></h3>
+<p>Find the folder for the subsystem that you want to make the update to.
+The folders can be found in the <a href="https://github.com/LASSAT-YU/wiki/tree/next/content">content</a> folder on our github.</p>
+<h3 id="make-change">Make change&nbsp;<a class="anchor" href="#make-change">&#xE732;</a></h3>
+<p>Once you have found the folder for the subsystem that you want to make the update to, you need to either add a new file
+or edit an existing file.
+For either option, ensure you are making changes against the <code>next</code> branch</p>
+<h4 id="add-new-file">Add new file&nbsp;<a class="anchor" href="#add-new-file">&#xE732;</a></h4>
+<p><img src="add_file.png" alt="Add File" /></p>
+<p>Click the <code>Add file</code> button.
+Ensure the new filename ends in <code>.md</code>.
+The top of the file must contain the front matter followed by the contents (See <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#setup-overview">overview</a> for an
+example).</p>
+<h4 id="edit-existing-file">Edit existing file&nbsp;<a class="anchor" href="#edit-existing-file">&#xE732;</a></h4>
+<p><img src="edit_file.png" alt="Edit File" /></p>
+<p>Select the file that you want to edit and click the edit icon.
+Make any necessary additions or corrections.</p>
+<h3 id="preview-changes">Preview Changes&nbsp;<a class="anchor" href="#preview-changes">&#xE732;</a></h3>
+<p><img src="preview.png" alt="Preview" /></p>
+<p>Optionally you can make use of the preview feature offered by GitHub.
+It will allow preview of most of the markdown features, but it will not for example remove things like the front matter
+from the output and any other zola specific things.</p>
+<h3 id="submit-changes-made">Submit changes made&nbsp;<a class="anchor" href="#submit-changes-made">&#xE732;</a></h3>
+<p>Once you have created or edited a file you'll need to submit those changes for review.
+Scroll all the way to the bottom of the page.</p>
+<p><img src="commit_message.png" alt="Commit Message" /></p>
+<p>At this point you can put in a short description of the change made in this box.
+If a longer message is needed please put a summary in this box and the longer description in the larger box bellow.</p>
+<p><img src="propose_change.png" alt="Propose Changes" /></p>
+<p>Once you are happy with the commit message click the <code>Propose changes</code> button.</p>
+<p>At this point if you have more changes to make feel free to add/edit more files starting over
+from <a href="https://lassat-yu.github.io/wiki/general/ref-guide/#find-subsystem-to-change">subsystem selection</a>.</p>
+<h3 id="create-pull-request">Create Pull Request&nbsp;<a class="anchor" href="#create-pull-request">&#xE732;</a></h3>
+<h4 id="start-pull-request">Start Pull Request&nbsp;<a class="anchor" href="#start-pull-request">&#xE732;</a></h4>
+<p><img src="start_pull_request.png" alt="Start Pull Request" /></p>
+<p>Near the top of the page you'll find the <code>Create pull request</code> button.
+After ensuring that you are targeting the <code>next</code> branch click the <code>Create pull request</code> button.</p>
+<h4 id="submit-pull-request">Submit Pull Request&nbsp;<a class="anchor" href="#submit-pull-request">&#xE732;</a></h4>
+<p><img src="create_pull_request.png" alt="Submit Pull Request" /></p>
+<p>Then you should only need to click <code>Create pull request</code> on the next screen to submit the request for review.</p>
+<p>If you have any issues please reach out on <a href="https://discord.gg/jvVBswdUeS">discord</a>.</p>
+
+    
+        </div>
+
+    </article>
+</main>
+
+
+    <script type="text/javascript" src="https://lassat-yu.github.io/wiki/elasticlunr.min.js" defer></script>
+    <script type="text/javascript" src="https://lassat-yu.github.io/wiki/search_index.en.js" defer></script>
+    <script type="text/javascript" src="https://lassat-yu.github.io/wiki/js.js" defer></script>
+</body>
+</html>
