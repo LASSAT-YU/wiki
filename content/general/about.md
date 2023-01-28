@@ -17,13 +17,12 @@ discord <https://discord.gg/JBCdZRm>
 
 ## When & How does the club meet?
 
-An all teams meeting is held weekly on Thursdays at 17:30 Toronto time in PSE 315 (Petrie Science & Engineering
-Building). Link to building on [Google maps](https://goo.gl/maps/UpWuJCXdNrzHszAYA).
-If you are unable to attend in person you may also attend on our discord, we will open a connection to the
-meeting-voicechat for those that are not able to make it in person. A discord event will usually be created and can be
-found at the top of all the channels. If you are unable to join on microphone or want to share something during the
-meeting, feel free to write it in [meeting-chat](https://discord.com/channels/340255767087284224/743200432796467202) (
-Note: Link to channel only works if you have already joined the server).
+See the
+club's [Google Calendar](https://calendar.google.com/calendar/embed?src=11da2e81803b2d71657da6b996577fa1fd97d7e8c6b86da550ce8b7679cd6c9d%40group.calendar.google.com&ctz=America%2FToronto)
+to see upcoming meetings and events. Note that there is a link in the bottom right that can be used to add it to your
+Google Calendar.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=11da2e81803b2d71657da6b996577fa1fd97d7e8c6b86da550ce8b7679cd6c9d%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## How many teams are there? What does each team do?
 
