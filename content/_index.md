@@ -20,4 +20,4 @@ cubesat (cube satellite). Students get experience working in software, RF commun
 ACS teams. LASSAT is an open learning environment for students of **all skill** levels and backgrounds. No prior skills
 required.
 
-See [about us](@/general/about.md) to get more general information about the club and frequently asked questions (faq).
+See [about us](@/general/about.md) for more information and a list of frequently asked questions (faq).
