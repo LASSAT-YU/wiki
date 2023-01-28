@@ -8,7 +8,7 @@ insert_anchor_links = "right"
 ## York University - Lassonde Satellite Club (LASSAT) Wiki
 
 This is the Lassonde Satellite Club (LASSAT) Wiki feel free to look around and reach out to us
-on [discord](https://discord.gg/JBCdZRm) if you have any questions.
+on [discord](https://discord.gg/jvVBswdUeS) if you have any questions.
 
 If you find any errors or want to add / update any content please see
 the [reference materials](@/general/ref_guide/index.md#wiki-update).

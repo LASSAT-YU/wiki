@@ -13,7 +13,7 @@ of **all skill** levels and backgrounds. No prior skills required.
 ## Contact information
 
 The best way to reach us is via our discord. Please use this link to join our
-discord <https://discord.gg/JBCdZRm>
+discord <https://discord.gg/jvVBswdUeS>
 
 ## When & How does the club meet?
 
@@ -88,6 +88,6 @@ Here is a list including some software we use and teach students about:
 
 ## How can I get involved in LASSAT?
 
-Join our [discord](https://discord.gg/JBCdZRm), and let us know what you are interested in, and we'll help you find
+Join our [discord](https://discord.gg/jvVBswdUeS), and let us know what you are interested in, and we'll help you find
 somewhere to contribute. Don't worry about not having previous experience it's not a requirement, we are all here to
 learn and develop. Feel free to check out as many subsystems as you like to find what interests you.

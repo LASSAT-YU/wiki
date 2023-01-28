@@ -189,6 +189,6 @@ Then you should only need to click `Create pull request` on the next screen to s
 
 If you have any issues please reach out on [discord][discord].
 
-[discord]: https://discord.gg/JBCdZRm
+[discord]: https://discord.gg/jvVBswdUeS
 
 [content]: https://github.com/LASSAT-YU/wiki/tree/next/content
